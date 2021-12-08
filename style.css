@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    border-bottom: white 1px solid;
+}
+
+.inicio {
+    background: url(img/aurora.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.288);
+
+}
+
+h1 {
+    margin-left: 150px;
+    margin-top: 20px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: violet 1px 1px 5px;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    color: white;
+    margin-right: 100px;
+}
+
+li {
+    margin-top: 10px;
+    list-style: none;
+    font-size: 35px;
+    font-weight: 300;
+    padding: 30px;
+    color: white;
+    font-family: roboto;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 108, 255);
+}
+
+.medio {
+    height: 600px;
+    background: url(img/via-lactea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+h2 {
+    width: 800px;
+    color: white;
+    height: 200px;
+    width: 500px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 200px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+}
+
+.linea {
+    float: left;
+    font-family: roboto;
+    font-size: 80px;
+    text-shadow: violet 1px 1px 5px;
+    margin-top: -150px;
+    width: 1000px;
+    margin-left: 200px;
+}
+
+hr {
+    height: 5px;
+    background-color: white;
+    margin-top: -10px;
+    margin-left: -50px;
+    width: 00px;
+    box-shadow: violet 0px 0px 5px;
+}
+
+.segunda {
+    margin-left: 450px;
+    margin-top: 400px;
+
+}
+
+
+#sigue {
+    height: 600px;
+    background-color: rgb(26, 27, 26);
+    border-top: white 1px solid;
+    border-bottom: 1px solid white;
+    background-size: cover;
+
+}
+
+#sigue h1 {
+    color: white;
+    margin-left: 400px;
+    font-size: 60px;
+    font-family: roboto;
+    margin-bottom: -60px;
+    margin-top: 100px;
+}
+
+h3 {
+    color: white;
+    margin-top: 0px;
+    margin-left: 300px;
+    height: 500px;
+    width: 700px;
+
+    padding: 100px 50px;
+    font-family: roboto;
+
+
+
+}
+
+
+
+
+img {
+    height: 400px;
+    margin-top: -500px;
+    margin-right: 300px;
+    float: right;
+    border: 2px solid white;
+}
+
+.luego {
+    height: 600px;
+    background: url(img/marte2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 1px solid white;
+
+}
+
+.visual {
+    height: 700px;
+    background: url(img/andromeda.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: white 1px solid;
+
+}
+
+iframe {
+    margin-top: 150px;
+    margin-left: 250px;
+    border: white 2px solid;
+}
+
+#pie {
+    height: 300px;
+    background: url(img/via-lactea.jpg);
+    display: block;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+#pie h6 {
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 110px;
+    margin-left: 50px;
+    padding-right: 80px;
+}
+
+.fab {
+    float: right;
+    color: #f86754;
+    margin-left: 0px;
+    font-size: 80px;
+    margin-top: 10px;
+
+}
+
+.patreon {
+    margin-left: 800px;
+    margin-top: -60px;
+}
+
+.fa-facebook {
+    color: rgb(64, 115, 224);
+    margin-top: 0px;
+}
+
+.facebook {
+    margin-top: -60px;
+}
+
+.fa-paper-plane {
+    margin-right: 10px;
+}
+
+.mail {
+    margin-top: -60px;
+    font-size: 40px;
+    margin-right: -50px;
+}
