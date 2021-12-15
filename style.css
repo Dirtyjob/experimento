@@ -15,7 +15,8 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 120px;
+    height: auto;
+    padding-bottom: 10px;
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -34,6 +35,7 @@ h1 {
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     color: white;
     margin-right: 100px;
@@ -60,57 +62,58 @@ a:hover {
 }
 
 .medio {
-    height: 600px;
+    box-sizing: border-box;
+    color: white;
+  min-height: 500px;
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+   text-align: center;
     background: url(img/via-lactea.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
     background-position: center;
     background-attachment: fixed;
+    flex-wrap: wrap;
+    
+   
 
 
 }
-
-h2 {
-    width: 800px;
-    color: white;
-    height: 200px;
-    width: 500px;
-    float: right;
-    margin-right: 200px;
-    margin-top: 200px;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 30px;
-}
-
-.linea {
-    float: left;
-    font-family: roboto;
-    font-size: 80px;
+.medio h4{
+    display: flex;
+    flex-wrap: wrap;
+  text-align: center;
+   justify-content: center;
+   margin-top: 100px;
+   width: auto;
+    font-size: 60px;
     text-shadow: violet 1px 1px 5px;
-    margin-top: -150px;
-    width: 1000px;
-    margin-left: 200px;
+    font-family: roboto;
+    font-weight: 800;
+    text-decoration: underline white 3px;
 }
-
-hr {
-    height: 5px;
-    background-color: white;
-    margin-top: -10px;
-    margin-left: -50px;
-    width: 00px;
-    box-shadow: violet 0px 0px 5px;
-}
-
-.segunda {
-    margin-left: 450px;
-    margin-top: 400px;
-
+.medio h2{
+    display: flex;
+    text-align: center;
+  justify-content: center;
+   margin-top: 100px;
+    width: 50%;
+    font-size: 40px;
+    flex-wrap: wrap;
+  
+  
+    
 }
 
 
 #sigue {
-    height: 600px;
+  
+  display: flex;
+   text-align: center;
+   flex-wrap: wrap;
+   text-align: left;
+   justify-content: space-evenly;
     background-color: rgb(26, 27, 26);
     border-top: white 1px solid;
     border-bottom: 1px solid white;
@@ -120,37 +123,47 @@ hr {
 
 #sigue h1 {
     color: white;
-    margin-left: 400px;
+
     font-size: 60px;
     font-family: roboto;
     margin-bottom: -60px;
     margin-top: 100px;
 }
 
-h3 {
+  #sigue h3 {
     color: white;
-    margin-top: 0px;
-    margin-left: 300px;
-    height: 500px;
+    font-weight: 800;
+    margin-top: 100px;
+  
+    min-height: 400px;
+    font-family: poppins;
+    flex-wrap: wrap;
+    font-size: 20px;
+
+
+
+}
+.letra{
     width: 700px;
-
-    padding: 100px 50px;
-    font-family: roboto;
-
-
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+   
+}
+#sigue img{
+    justify-content: left;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    border: 1px white solid;
+    
+   
+  
 }
 
 
 
 
-img {
-    height: 400px;
-    margin-top: -500px;
-    margin-right: 300px;
-    float: right;
-    border: 2px solid white;
-}
 
 .luego {
     height: 600px;
@@ -162,49 +175,66 @@ img {
 }
 
 .visual {
-    height: 700px;
+    height: auto;
     background: url(img/andromeda.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: white 1px solid;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 
 iframe {
     margin-top: 150px;
-    margin-left: 250px;
     border: white 2px solid;
 }
-
-#pie {
-    height: 300px;
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  min-height: 120px;
     background: url(img/via-lactea.jpg);
-    display: block;
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
+    
+}
+
+#pie {
+ 
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-evenly;
+   
+}
+footer ul li i{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
 }
 
 #pie h6 {
     color: white;
-    font-size: 50px;
-    margin-top: 0px;
-    padding-top: 110px;
-    margin-left: 50px;
-    padding-right: 80px;
+    font-size: 70px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    
+  
 }
 
 .fab {
     float: right;
     color: #f86754;
-    margin-left: 0px;
+    margin-left: 10px;
     font-size: 80px;
     margin-top: 10px;
 
 }
 
 .patreon {
-    margin-left: 800px;
+   
     margin-top: -60px;
 }
 
@@ -224,5 +254,6 @@ iframe {
 .mail {
     margin-top: -60px;
     font-size: 40px;
-    margin-right: -50px;
+  
+
 }
